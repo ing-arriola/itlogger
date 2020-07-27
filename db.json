@@ -1,0 +1,30 @@
+{
+    "logs":[
+        {
+            "id":1,
+            "message":"changed hd on ws 01",
+            "attention":false,
+            "date":"03-02-2019",
+            "tech":"Sam Diaz"
+        },
+        {
+            "id":2,
+            "message":"ws 02 is slow",
+            "attention":true,
+            "date":"03-02-2019",
+            "tech":"Sam Diaz"
+        }
+],
+    "techs":[
+        {
+            "id":1,
+            "firstName":"Sam",
+            "lastname":"Diaz"
+        },
+        {
+            "id":2,
+            "firstName":"Geovany",
+            "lastname":"Martinez"
+        }
+    ]
+}
