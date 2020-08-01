@@ -20,7 +20,7 @@ export default (state = initialState, action) => {
         ...state,
         loading: true,
       };
-    case LOGS_ERROR:
+    case LOGS_ERRORS:
       console.error(action.payload);
       return {
         ...state,
