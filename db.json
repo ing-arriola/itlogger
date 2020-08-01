@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "changed hd on ws 01",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Diaz"
-    },
-    {
-      "id": 2,
-      "message": "ws 02 is slow",
-      "attention": true,
-      "date": "03-02-2019",
-      "tech": "Sam Diaz"
-    },
-    {
-      "message": "INSTALLED VIRTUAL BOX ON DESKTOP",
+      "message": "Install new network cable on Workstation 005",
       "attention": true,
       "tech": "Sam",
-      "date": "2020-08-01T11:04:59.778Z",
-      "id": 3
+      "date": "2020-08-01T12:01:50.386Z",
+      "id": 1
+    },
+    {
+      "message": "Fix HD ON WORKSTATION 009",
+      "attention": false,
+      "tech": "Sara",
+      "date": "2020-08-01T12:02:06.238Z",
+      "id": 2
     }
   ],
   "techs": [
