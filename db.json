@@ -1,11 +1,11 @@
 {
   "logs": [
     {
-      "message": "Install new network cable on Workstation 005",
-      "attention": true,
-      "tech": "Sam",
-      "date": "2020-08-01T12:01:50.386Z",
-      "id": 1
+      "id": 1,
+      "message": "Installed new network cable on Workstation 005",
+      "attention": false,
+      "tech": "John",
+      "date": "2020-08-01T13:05:10.277Z"
     },
     {
       "message": "Fix HD ON WORKSTATION 009",
