@@ -72,16 +72,17 @@ export const deleteLog = (id) => async (dispatch) => {
 
 //UPDATE
 
-export const updateLog = (id) => async (dispatch) => {
+export const updateLog = (log) => async (dispatch) => {
   try {
     setLoading();
-    await fetch(`/logs/${id}`, {
+    const res = await fetch(`/logs/${log.id}`, {
       method: "PUT",
       body: JSON.stringify(log),
       headers: {
         "Content-type": "application/json",
       },
     });
+    const data = await res.json();
 
     dispatch({
       type: UPDATE_LOG,
